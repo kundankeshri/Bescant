@@ -1,0 +1,15 @@
+ng new MyProj 
+ng serve 
+ng serve --open
+ng test [run all unit test]
+ng e2e [run all end to end test]
+ng --help
+ng --help|clip
+ng --help >Help.txt
+ng --help >Help.doc
+ng new --help
+ng new MyProject -d/--dry-run
+ng new MyProject -si/--skip-install
+ng new MyProjet -si --skip-tests/-si -st
+ng new MyProject -si -st -it [inline template]
+ng new MyProject -si -st -is [inline style]

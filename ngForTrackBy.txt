@@ -1,0 +1,8 @@
+=>Using trackby with ngFor directive
+=>How to get the index of item in a collection
+=>Identifying the first and last elements in a collections
+=>Identifying even and odd elements in a collections 
+-----------------------
+=>for large list ngFor directive may perform poorly
+=>A small change in the list may trigger a cascade of DOM manipulations
+----------------------------

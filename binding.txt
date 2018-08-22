@@ -1,0 +1,84 @@
+OneWayDataBinding  :- From component to View Template
+OneWayDataBinding  :- From View Template to Component
+TwoWayDataBinding  :- From Component to View Tempalte & From View tempalte to Component
+
+---------------------------------------
+Interpolationv/s Property binding
+=>Interpoaltion is a special syntax that Angular converts into a property binding.
+=> Its a convenient alternative of property binding .
+=> to concatenate strings we must use interpolation instead of property binding .
+----------------------------------------
+Property Binding :- 
+=>Enclose the property name with the pair of square brackets .
+=>Cannonical Veriation (bind.PropertyName)
+=>Automatically synatizes the malecious content 
+
+-----------------------------------------
+DOM :-
+
+<html>
+ <head>
+    <title>My Page Title</title>
+ </head>
+ <body>
+  <script type='tect/javascript'></script>
+   <div>
+    <h1>This is browser DOM</h1>
+   </div>
+ </body>
+</html>
+
+windows->documant ->html 
+                        -head -> title
+                        -body -> script
+                              ->div -> h1
+
+
+=> DOM contains the HTML elements as objects ,their properties ,method and event and is a standard for asseccing , modifying,adding or deleting HTML elements .
+=> Angular data binding is all about binding to DOM object not HTML element attribute.
+=> Difference b/w HTML Element Attribute v/s DOM property:-
+   (*) Attributes are defined by html where as properties are defined by DOM .
+   (*) Attribute initalize the DOM properties. Once the initalization complete , the attribute job is done .
+   (*) Property values can change, where as attribute values can't .
+       -> inputId.getAttribute('value');
+       -> inputId.value
+
+
+Important Points :- 
+=> HTML attribute and DOM property are different .
+=>Angular binding works with property and events not with attributes.
+
+
+-----------------------------------------------
+Attribute Binding 
+
+=> Angular binding works with property and events not with attributes bt sometime html doesn't have property and events then we have to use attribute binding .
+
+------------------------------------------------
+Class Binding 
+
+=>Replace all the existing CSS classes with one or more classes
+=>Add or remove single CSS classes
+=>Add or remove multiple CSS classes
+
+----------------------------------------------
+Style Binding
+
+=>to set multiple inline style use directive ngStyle 
+
+-----------------------------------------------
+Event Binding 
+=>All above binding flows data from componet to html element
+=>Event binding flows data from html element to Component
+example :- Table hide and show tr 
+-----------------------------------------------
+TwoWay data binding 
+
+=>$event object is exposed by angular data binding and contains event data
+=>import import {FormsModule }   from '@angular/forms'; in app module to use [(ngModel)]
+
+ 
+
+
+
+

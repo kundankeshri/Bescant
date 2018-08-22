@@ -1,0 +1,28 @@
+src - contains angular project source code  Component,Pipe,Service,Directives,style,images etc
+(*)All the folder outside of the src and only for the support of angular project development .
+(*)Means Once our project is deployed on the production server we don't need all these files.
+
+assets- conatins assets like img and other assets.
+
+enviroment - default build env is dev
+
+all mapping are present in angular-json.
+
+index.html :- main html page served to the user 
+
+main.ts :- the main entry point for the application.This file conatins the code to bootstrape the application root module
+
+ployfills.ts :- Conatins pollyfills needed by Angular
+
+styles.css :- Contains global styles of our application 
+
+test.ts :- main entry point for unit test , it loads all the spec files 
+
+tsconfig.app.json :- Typescript compiler configuration for Angular app
+
+tsconfig.spec.json :- Typescript compiler configuration for unit test
+
+typings.d.ts :- if typescript compiler doesn't recognize anything then they use typings defination.ts file 
+
+
+

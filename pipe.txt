@@ -1,0 +1,8 @@
+=> Pipe is used to transfor data 
+=> date :'fullDate' date formate should be mm-dd-yyyy
+=> Go to https://angular.io/api/common/DatePipe
+=> date :'dd/MM/y'
+=> Built in pipes include lowercase , uppercase,decimal,date,percent,currency
+=> To apply a pipe on a bound proprty use the pipe character "|"
+=> We can chain pipes 
+ <td>{{employee.dateOfBirth | date :'fullDate' | uppercase}}

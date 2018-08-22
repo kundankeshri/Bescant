@@ -1,0 +1,8 @@
+A comopnet in Angular is a class witha template and a decorator .
+>Tempalte
+>Class
+>Decorator
+
+-class in Angular2 contains method and tempalte 
+-export keyword allows the class to be expoterd if any class required.
+-

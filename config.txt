@@ -1,0 +1,29 @@
+main.ts :- entry point of the application to bootstrape our root application module
+pollyfiles :- browser support 
+test.ts :- entry point of unit test loads all .spec and framework files
+tsconfig.js :- contains typescript complier configuration for AngularApp
+testtsconfig.js :- contains typescript complier configuration for test
+styles :- can be css
+          ng new App5 --style scss
+
+test using cmd :- ng g c abc 
+                  ng g c xyz --style css
+change prefix :- ng new App2 --prefix besant 
+	
+We dont need any file outside of src in production server 
+
+default enviroment is dev
+
+index.html :- the main html page that is served to user
+pollyfills.ts :- contains polyfills needed by angular.Angular is build on the latest web enviroment .Not All 
+                 browser supports all feature of modern browser and can be compentiated by pollyfills script
+tsconfig.app.json :- contains typescript complier configuration for AngularApp
+tsconfig.spec.json :- contains typescript complier configuration for unit tests
+typings.d.ts :- Some of the scripts are not determined by typescript compiler so for external library we use this 
+
+
+
+
+
+
+     

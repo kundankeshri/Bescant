@@ -1,0 +1,30 @@
+=>Routing allow you to nevigate from one view to another view
+=>Till now we are using selector as directive to use one component in another component.
+--------------------
+Basic steps 
+step1:- Set <base href="/src/"> in index.html
+step2:- Import RouterModule and define routes
+
+import {RouterModule,Routes}from '@angular/router';
+const appRoutes:Routes = [
+{path:'home',component: HomeComponent},
+{path:'employees' , component :EmployeesComponent},
+{path:'',redirectTO:'/home',pathMatch:'full'},
+{path:'**',component:PageNotFoundComponent}]
+]
+---------------------
+routerLink directive :- tell the router where to nevigate if the anchor tag is clicked
+routerLinkActive diective :- adds and remove the active css class --active means it will appear selected
+router-outlet directive :- This directive specifies the location where we want the component view template to be displayed
+----------------------
+To install bootstrape use:-
+ npm install bootstrap@3 --save
+--------------------------------
+How Routing works in Angular :- 
+=> router module look for the router-outlet directory and display the crossponding template
+=>Routes is a type no impact .
+=>Routes use its provide the compile time check up 
+
+=================================================================
+Implementing Routing in a seprate module
+=>Generate a seperate angular module along with new project (ng new RoutingDemo --routing)
